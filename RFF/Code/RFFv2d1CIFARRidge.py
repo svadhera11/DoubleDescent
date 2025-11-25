@@ -66,7 +66,7 @@ scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 
-gamma = 0.0005 
+gamma = 0.002 
 
 def compute_weights_exact(X, Y, alpha=1e-6):
     N, D = X.shape
