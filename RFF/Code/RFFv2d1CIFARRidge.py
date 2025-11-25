@@ -128,7 +128,7 @@ data_to_save = {
 }
 df = pd.DataFrame(data_to_save)
 
-csv_filename = "cifar_nsamp=10000_nlvl=20per_gamma=d005_seed="+str(SEED)+".csv"
+csv_filename = "cifar_nsamp=10000_nlvl=20per_gamma=d002_seed="+str(SEED)+".csv"
 df.to_csv(csv_filename, index=False)
 print(f"Data points saved to {csv_filename}")
 
