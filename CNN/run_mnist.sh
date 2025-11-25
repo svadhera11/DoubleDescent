@@ -1,0 +1,11 @@
+python run_dd.py \
+  --mode model-wise \
+  --dataset mnist \
+  --train-sizes 12501 \
+  --widths 2 4 8 16 32 \
+  --noise-probs 0.0 0.1 0.2 \
+  --seeds 0 1 2 \
+  --num-steps 100000 \
+  --eval-every 5000 \
+  --no_augment \
+  --out-root results
